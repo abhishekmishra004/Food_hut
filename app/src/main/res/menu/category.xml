@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/category"
+        android:title=""
+        android:icon="@drawable/ic_cate"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nonveg"
+                android:title="Non Veg Dishes"/>
+            <item
+                android:id="@+id/veg"
+                android:title="Veg Dishes"/>
+            <item
+                android:id="@+id/drink"
+                android:title="Drinks"/>
+            <item
+                android:id="@+id/sweets"
+                android:title="Sweets"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/groupimage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/f"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/i"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="For any Queries contact:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/f"
+        android:id="@+id/s"
+        android:layout_centerHorizontal="true"
+        android:text="Email:abhishekmishragacr@gmail.com"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/s"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Phone:8249286911"/>
+</RelativeLayout>

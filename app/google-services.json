@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "17622991810",
+    "firebase_url": "https://food-hut-929c1.firebaseio.com",
+    "project_id": "food-hut-929c1",
+    "storage_bucket": "food-hut-929c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17622991810:android:d3f15daf18977600",
+        "android_client_info": {
+          "package_name": "com.org.asp.food_hut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17622991810-p6ti6dg8kffl1vapusopafi7tefut3mn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.org.asp.food_hut",
+            "certificate_hash": "b6f80b092bb31378ce6a731520cbfeeabd266511"
+          }
+        },
+        {
+          "client_id": "17622991810-q3i24jkdss1mq7e6844b1a8ilhcmg583.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAKoDI6-KC9siT9T5Lw8t0I4tf4i_ByUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17622991810-q3i24jkdss1mq7e6844b1a8ilhcmg583.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

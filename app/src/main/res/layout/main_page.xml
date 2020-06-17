@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/mainpagebackground"
+        android:alpha="0.75"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/red_background"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logomain" />
+
+    <ImageView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/taglinequote" />
+
+    <ImageButton
+        android:id="@+id/loginButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/loginb1main"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/quote"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signupb1"
+        android:id="@+id/signUpButton"
+        android:layout_below="@+id/quote"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CardviewDish"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="2dp"
+    card_view:contentPadding="2dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardMaxElevation="2dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/DishImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/load" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:textSize="25sp"
+            android:id="@+id/DishName"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/DishImage"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DishCost"
+            android:text="test"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@+id/DishImage"
+            android:layout_below="@+id/DishName"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
