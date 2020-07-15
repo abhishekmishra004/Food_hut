@@ -2,23 +2,20 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="center"
+        android:scaleType="fitXY"
         android:src="@drawable/mainpagebackground"
         android:alpha="0.75"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
+        android:scaleType="fitXY"
         android:src="@drawable/red_background"
-        android:layout_marginLeft="-10dp"
-        android:layout_marginRight="-10dp"
         />
 
     <EditText
@@ -99,7 +96,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="85dp"
         android:background="@drawable/signupb1"
-         />
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -122,8 +119,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="176dp"
         android:indeterminate="true"
-        android:indeterminateTint="#FFFFFF"
+        android:visibility="invisible"
         android:indeterminateTintMode="src_atop"
-        android:visibility="invisible" />
+        android:indeterminateTint="#FFFFFF"/>
 
 </RelativeLayout>

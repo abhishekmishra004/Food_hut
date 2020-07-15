@@ -88,7 +88,7 @@ class Signup : AppCompatActivity() {
             }
 
             override fun onVerificationFailed(p0: FirebaseException?) {
-                alert()
+                alert("Firebase Exception")
                 progressBar?.visibility = View.INVISIBLE
                 userNameEdit!!.isEnabled = true
                 phoneNOEdit!!.isEnabled = true
@@ -129,7 +129,7 @@ class Signup : AppCompatActivity() {
                                 val checkUser = rootRef.child("UserLoginInfo").ref
                                 val postListener: ValueEventListener = object : ValueEventListener {
                                     override fun onCancelled(p0: DatabaseError) {
-                                        alert()
+                                        alert("Database error")
                                         progressBar?.visibility = View.INVISIBLE
                                     }
 
@@ -138,7 +138,7 @@ class Signup : AppCompatActivity() {
                                         {write()}
                                         else{
                                         if (dataSnapshot.hasChild(phoneNO!!)) {
-                                            alert()
+                                            alert("Phone no exists")
                                             progressBar?.visibility = View.INVISIBLE
                                         } else {
                                             write()
@@ -248,10 +248,10 @@ class Signup : AppCompatActivity() {
         }
     }
 
-    fun alert() {
+    fun alert(str: String) {
         val alertDialog = AlertDialog.Builder(this@Signup)
                 .setTitle("Failed!!!")
-                .setMessage("User already exits or the input phone number is wrong!!")
+                .setMessage(str)
                 .setPositiveButton("OK", null)
                 .create()
 

@@ -8,16 +8,14 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="center"
+        android:scaleType="fitXY"
         android:src="@drawable/mainpagebackground"
         android:alpha="0.75"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
+        android:scaleType="fitXY"
         android:src="@drawable/red_background"
-        android:layout_marginLeft="-10dp"
-        android:layout_marginRight="-10dp"
         />
 
     <ImageView

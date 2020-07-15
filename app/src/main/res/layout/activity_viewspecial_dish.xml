@@ -28,6 +28,7 @@
         android:layout_below="@+id/Dish_imagee"
         android:layout_margin="15dp"
         android:textSize="20sp"
+        android:textColor="#E8000000"
         android:textStyle="bold" />
 
     <TextView
@@ -54,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
+            android:textColor="#E8000000"
             android:textStyle="bold" />
     </ScrollView>
 

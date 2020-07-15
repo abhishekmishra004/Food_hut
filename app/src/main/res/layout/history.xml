@@ -21,32 +21,38 @@
             android:id="@+id/HistDishnameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#E8000000"
             android:textSize="24sp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Histrestroname"
+            android:textColor="#E8000000"
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/HistDishcostText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#E8000000"
             android:textSize="15sp" />
 
         <TextView
             android:id="@+id/HistDishdateText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#E8000000"
             android:textSize="15sp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/histStatus"
+            android:textColor="#E8000000"
             android:textSize="15sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/transId"
+            android:textColor="#E8000000"
             android:textSize="15sp"/>
         <View
             android:layout_width="match_parent"

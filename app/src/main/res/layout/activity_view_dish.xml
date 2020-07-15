@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:text="Restro Name"
+        android:textColor="#FFFFFF"
         android:layout_margin="5dp"
         android:id="@+id/Resto_name"/>
 
@@ -27,6 +28,7 @@
         android:layout_below="@+id/Dish_detail_image"
         android:layout_marginLeft="15dp"
         android:layout_marginBottom="5dp"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -37,6 +39,7 @@
         android:layout_below="@id/Dish_detail_image"
         android:layout_alignParentRight="true"
         android:layout_marginRight="15dp"
+        android:textColor="#FFFFFF"
         android:layout_marginBottom="5dp"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -51,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
+            android:textColor="#FFFFFF"
             android:textStyle="bold" />
     </ScrollView>
 

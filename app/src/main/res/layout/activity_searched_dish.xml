@@ -37,6 +37,7 @@
         android:layout_below="@id/sDish_imagee"
         android:layout_alignParentRight="true"
         android:layout_margin="15dp"
+        android:textColor="#E8000000"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -54,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
+            android:textColor="#E8000000"
             android:textStyle="bold" />
     </ScrollView>
 

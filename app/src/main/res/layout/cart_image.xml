@@ -21,32 +21,37 @@
                 android:id="@+id/dishname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#E8000000"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/Restname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#E8000000"
                 android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/dishcost"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:textColor="#E8000000"/>
 
             <TextView
                 android:id="@+id/phoneno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:visibility="invisible" />
+                android:visibility="invisible"
+                android:textColor="#E8000000"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:text="ContactN No- 9853732536" />
+                android:text="Contact No- 9853732536"
+                android:textColor="#E8000000"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"

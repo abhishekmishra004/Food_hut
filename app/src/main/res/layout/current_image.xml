@@ -21,29 +21,34 @@
                 android:id="@+id/currdishname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#E8000000"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/currRestname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#E8000000"
                 android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/currdishcost"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#E8000000"
                 android:textSize="15sp" />
             <TextView
                 android:id="@+id/currdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#E8000000"
                 android:textSize="15sp" />
             <TextView
                 android:id="@+id/currphoneno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
+                android:textColor="#E8000000"
                 android:visibility="invisible" />
         </LinearLayout>
             <TextView
@@ -53,6 +58,7 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="27dp"
                 android:id="@+id/currstatus"
+                android:textColor="#E8000000"
                 android:textSize="17sp"/>
         <View
             android:layout_width="match_parent"

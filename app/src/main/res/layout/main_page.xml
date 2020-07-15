@@ -8,16 +8,15 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="center"
+        android:scaleType="fitXY"
         android:src="@drawable/mainpagebackground"
         android:alpha="0.75"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
         android:src="@drawable/red_background"
-        android:layout_marginLeft="-10dp"
-        android:layout_marginRight="-10dp"
+        android:scaleType="fitXY"
+        android:layout_margin="-50dp"
         />
 
     <ImageView
@@ -34,25 +33,29 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/taglinequote" />
 
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation = "horizontal"
+        android:layout_below="@+id/quote"
+        >
     <ImageButton
         android:id="@+id/loginButton"
         android:layout_width="150dp"
+        android:layout_weight= "1"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="5dp"
+        android:layout_margin="30dp"
         android:background="@drawable/loginb1main"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/quote"/>
+        />
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_weight= "1"
         android:background="@drawable/signupb1"
         android:id="@+id/signUpButton"
-        android:layout_below="@+id/quote"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="30dp"/>
-
+        android:layout_margin="30dp" />
+    </LinearLayout>
 
 </RelativeLayout>
 
